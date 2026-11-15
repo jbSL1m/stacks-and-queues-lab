@@ -99,3 +99,22 @@ Once your lab is complete and all tests are passing:
 
 - Push your code to GitHub.
 - Submit the link to your repo through **Canvas using CodeGrade**.
+
+---
+
+## How to Run
+
+Requires Python 3 (no third-party packages).
+
+```bash
+# Run the test suite
+python3 test_structures.py
+
+# Demo the parentheses validator (stack)
+python3 custom_stack.py
+
+# Demo the customer raffle (queue)
+python3 custom_queue.py
+```
+
+Use `python` instead of `python3` if that's how Python is installed on your machine.
